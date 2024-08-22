@@ -1,9 +1,8 @@
 import pytest
-import myfile
+from myfile import func, multiply
 
-class TestClass:
-    def test_pass():
-        assert func(2,3) == 38
+def test_pass():
+    assert func(2,3) == 38
 
-    def test_fail():
-        assert func(2,3) == 39
+def test_fail():
+    assert func(2,3) == 39 
