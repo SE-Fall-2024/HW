@@ -1,0 +1,23 @@
+************* Module hw2_debugging
+hw2/hw2_debugging.py:5:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+hw2/hw2_debugging.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+hw2/hw2_debugging.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+hw2/hw2_debugging.py:4:0: C0103: Function name "mergeSort" doesn't conform to snake_case naming style (invalid-name)
+hw2/hw2_debugging.py:4:14: W0621: Redefining name 'arr' from outer scope (line 34) (redefined-outer-name)
+hw2/hw2_debugging.py:13:0: C0116: Missing function or method docstring (missing-function-docstring)
+hw2/hw2_debugging.py:13:14: C0103: Argument name "leftArr" doesn't conform to snake_case naming style (invalid-name)
+hw2/hw2_debugging.py:13:23: C0103: Argument name "rightArr" doesn't conform to snake_case naming style (invalid-name)
+hw2/hw2_debugging.py:14:4: C0103: Variable name "leftIndex" doesn't conform to snake_case naming style (invalid-name)
+hw2/hw2_debugging.py:15:4: C0103: Variable name "rightIndex" doesn't conform to snake_case naming style (invalid-name)
+hw2/hw2_debugging.py:16:4: C0103: Variable name "mergeArr" doesn't conform to snake_case naming style (invalid-name)
+hw2/hw2_debugging.py:19:12: C0103: Variable name "rightIndex" doesn't conform to snake_case naming style (invalid-name)
+hw2/hw2_debugging.py:22:12: C0103: Variable name "leftIndex" doesn't conform to snake_case naming style (invalid-name)
+************* Module rand
+hw2/rand.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+hw2/rand.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+hw2/rand.py:5:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+hw2/rand.py:6:23: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+
+------------------------------------------------------------------
+Your code has been rated at 4.52/10 (previous run: 4.52/10, +0.00)
+
