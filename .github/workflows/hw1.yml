@@ -18,19 +18,20 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
+        cd hw1
         python -m pip install --upgrade pip
         pip install pytest pytest-cov
-      working-directory: hw1
+      # working-directory: hw1
     - name: Test with pytest
       run: |
         cd hw1
         pytest
-      working-directory: hw1
+      # working-directory: hw1
     - name: Run tests
       run: |
         cd hw1
         pytest --cov
-      working-directory: hw1
+      # working-directory: hw1
     - name: Upload results to Codecov
       uses: codecov/codecov-action@v4
       with:
