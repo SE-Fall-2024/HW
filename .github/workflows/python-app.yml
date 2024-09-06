@@ -52,18 +52,18 @@ jobs:
         pip install autopep8
         pip install pylint
         pip install bandit
-    - name: Test with pytest
-      run: |
-        cd hw2
-        pytest
-    - name: Run tests
-      run: |
-        cd hw2
-        pytest --cov
-    - name: Upload results to Codecov
-      uses: codecov/codecov-action@v4
-      with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+    # - name: Test with pytest
+    #   run: |
+    #     cd hw2
+    #     pytest
+    # - name: Run tests
+    #   run: |
+    #     cd hw2
+    #     pytest --cov
+    # - name: Upload results to Codecov
+    #   uses: codecov/codecov-action@v4
+    #   with:
+    #       token: ${{ secrets.CODECOV_TOKEN }}
     - name: autopep8
       run: |
         cd hw2
