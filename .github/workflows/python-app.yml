@@ -72,6 +72,4 @@ jobs:
     - name: Bandit
       run: |
         autopep8
-      with:
-          args: --recursive --in-place --aggressive --aggressive .
             
