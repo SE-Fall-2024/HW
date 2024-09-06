@@ -37,6 +37,7 @@ jobs:
 
   HW2_job:
     runs-on: ubuntu-latest
+    if: contains(github.event.commits.*.modified, 'hw2/')
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python
@@ -65,7 +66,7 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
     - name: autopep8
       run: |
-        autopep8 hw2_debugging.py
+        autopep8 --in-place --recursive *.py
     - name: pylint
       run: |
         pylint
