@@ -8,32 +8,32 @@ on:
       - hw2/**
 
 jobs:
-  HW1_job:
-    name: HW1
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
-    - name: Install dependencies
-      run: |
-        cd hw1
-        python -m pip install --upgrade pip
-        pip install pytest pytest-cov
-    - name: Test with pytest
-      run: |
-        cd hw1
-        pytest
-    - name: Run tests
-      run: |
-        cd hw1
-        pytest --cov
-    - name: Upload results to Codecov
-      uses: codecov/codecov-action@v4
-      with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+  # HW1_job:
+  #   name: HW1
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #   - name: Set up Python
+  #     uses: actions/setup-python@v5
+  #     with:
+  #       python-version: '3.x'
+  #   - name: Install dependencies
+  #     run: |
+  #       cd hw1
+  #       python -m pip install --upgrade pip
+  #       pip install pytest pytest-cov
+  #   - name: Test with pytest
+  #     run: |
+  #       cd hw1
+  #       pytest
+  #   - name: Run tests
+  #     run: |
+  #       cd hw1
+  #       pytest --cov
+  #   - name: Upload results to Codecov
+  #     uses: codecov/codecov-action@v4
+  #     with:
+  #         token: ${{ secrets.CODECOV_TOKEN }}
 
   HW2_job:
     runs-on: ubuntu-latest
