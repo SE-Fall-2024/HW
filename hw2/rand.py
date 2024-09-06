@@ -9,5 +9,4 @@ def random_array(arr):
         shuffled_num = subprocess.run(
             ["shuf", "-i1-20", "-n1"], capture_output=True, check=True)
         arr[i[0]] = int(shuffled_num.stdout)
-    print(arr)
     return arr
