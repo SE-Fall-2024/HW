@@ -33,8 +33,8 @@ jobs:
       with:
           token: ${{ secrets.CODECOV_TOKEN }}
     - name: autopep8
-      id: autopep8
-      uses: autopep8/autopep8@v2
+      run: |
+        autopep8
       # with:
       #     args: --recursive --in-place --aggressive --aggressive .
             
