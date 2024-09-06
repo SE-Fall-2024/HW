@@ -9,6 +9,6 @@
 
 ### HW 2
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
-![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)]([https://github.com/pylint-dev/pylin](url)t)
+![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)]![](https://github.com/pylint-dev/pylint)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
