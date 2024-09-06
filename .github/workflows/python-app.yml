@@ -65,7 +65,7 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
     - name: autopep8
       run: |
-        autopep8
+        autopep8 hw2_debugging.py
     - name: pylint
       run: |
         pylint
