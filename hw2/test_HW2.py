@@ -8,4 +8,4 @@ def test_pass_larger():
     assert merge_sort([12, 24, 24, 34, 32, 65, 54, 70]) == [12, 24, 24, 32, 34, 54, 65, 70]
 
 def test_fail():
-    assert merge_sort([15, 13, 12]) != [12, 15, 13]
+    assert merge_sort([15, 13, 12, 21]) != [12, 21, 15, 13]
