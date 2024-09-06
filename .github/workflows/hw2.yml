@@ -1,0 +1,46 @@
+name: HW2
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - hw2/**
+
+jobs:
+  HW2_job:
+    name: HW2
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        cd hw2
+        python -m pip install --upgrade pip
+        pip install pytest pytest-cov
+        pip install autopep8
+        pip install pylint
+        pip install bandit
+    - name: Test with pytest
+      run: |
+        cd hw2
+        pytest
+    - name: Run tests
+      run: |
+        cd hw2
+        pytest --cov
+    - name: Upload results to Codecov
+      uses: codecov/codecov-action@v4
+      with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+    - name: pylint
+      run: |
+        cd hw2
+        pylint
+    - name: Bandit
+      run: |
+        cd hw2
+        bandit -r
