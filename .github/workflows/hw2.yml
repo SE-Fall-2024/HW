@@ -38,9 +38,7 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
     - name: pylint
       run: |
-        cd hw2
-        pylint
+        pylint ./hw2
     - name: Bandit
       run: |
-        cd hw2
-        bandit -r
+        bandit -r ./hw2
