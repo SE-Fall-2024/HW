@@ -1,4 +1,4 @@
-'''Module to use subprocesses for other Python files'''
+'''Module to use subprocesses for other Python files.'''
 import subprocess
 
 
