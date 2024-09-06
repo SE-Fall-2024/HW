@@ -6,6 +6,7 @@ on:
     paths:
       - hw1/**
       - hw2/**
+      - hw3/**
 
 jobs:
   # HW1_job:
