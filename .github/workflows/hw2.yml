@@ -26,7 +26,6 @@ jobs:
         pip install bandit
     - name: Test with pytest
       run: |
-        cd hw2
         pytest
     - name: Run tests
       run: |
