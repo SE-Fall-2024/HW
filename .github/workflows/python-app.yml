@@ -3,6 +3,8 @@ name: Python application
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - hw1/**
 
 jobs:
   build:
