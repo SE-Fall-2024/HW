@@ -67,7 +67,7 @@ jobs:
     - name: autopep8
       run: |
         cd hw2
-        autopep8 --in-place --recursive *.py
+        autopep8 --in-place --recursive .
     - name: pylint
       run: |
         cd hw2
