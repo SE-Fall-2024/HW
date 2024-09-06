@@ -3,8 +3,8 @@ name: Python application
 on:
   push:
     branches: [ "main" ]
-    paths:
-      - hw1/**
+    # paths:
+    #   - hw1/**
 
 jobs:
   build:
@@ -31,4 +31,9 @@ jobs:
       uses: codecov/codecov-action@v4
       with:
           token: ${{ secrets.CODECOV_TOKEN }}
+    - name: autopep8
+      id: autopep8
+      uses: autopep8/autopep8@v2
+      # with:
+      #     args: --recursive --in-place --aggressive --aggressive .
             
