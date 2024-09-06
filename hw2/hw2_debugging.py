@@ -1,6 +1,5 @@
 '''Module for importing external file rand.py'''
 import rand
-import pdb
 
 
 def merge_sort(arr):
