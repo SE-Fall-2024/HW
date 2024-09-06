@@ -24,8 +24,10 @@ jobs:
         pip install pytest pytest-cov
     - name: Test with pytest
       run: |
-        pytest test_HW1.py --doctest-modules --junitxml=junit/test-results.xml --cov --cov-report=xml --cov-report=html
-        
+        pytest
+    - name: Run tests
+      run: |
+        pytest --cov
     - name: Upload results to Codecov
       uses: codecov/codecov-action@v4
       with:
