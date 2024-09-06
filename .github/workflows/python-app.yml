@@ -66,11 +66,14 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
     - name: autopep8
       run: |
+        cd hw2
         autopep8 --in-place --recursive *.py
     - name: pylint
       run: |
+        cd hw2
         pylint
     - name: Bandit
       run: |
-        autopep8
+        cd hw2
+        bandit
             
