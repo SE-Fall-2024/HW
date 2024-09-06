@@ -9,4 +9,3 @@ num1 = 2
 num2 = 3
 ans = func(2, 3)
 print("Answer:", ans)
-# print(Answer, ans) # Error for Step 5
