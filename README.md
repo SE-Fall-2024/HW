@@ -8,6 +8,7 @@
 [![codecov](https://codecov.io/gh/SE-Fall-2024/HW/graph/badge.svg?token=MGDF8WAVSP)](https://codecov.io/gh/SE-Fall-2024/HW)
 
 ### HW 2
-![formater](https://img.shields.io/badge/Formatter-autopep8-red)
-![Pylint](https://img.shields.io/badge/Tools-PyLint-orange)
-![Bandit](https://img.shields.io/badge/Tools-bandit-yellow)
+[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
+[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+
