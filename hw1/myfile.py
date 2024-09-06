@@ -8,4 +8,4 @@ def multiply(x, y):
 num1 = 2
 num2 = 3
 ans = func(2, 3)
-print("Answer for Test:", ans)
+print("Answer for Proof:", ans)
