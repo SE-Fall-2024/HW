@@ -21,7 +21,7 @@ jobs:
         cd hw2
         python -m pip install --upgrade pip
         pip install pytest pytest-cov
-        pip install autopep8
+        pip install --upgrade autopep8
         pip install pylint
         pip install bandit
     - name: Test with pytest
@@ -41,3 +41,6 @@ jobs:
     - name: Bandit
       run: |
         bandit -r ./hw2
+    - name: AutoPep8
+      run: |
+        autopep8 --in-place --aggressive --recursive ./hw2
