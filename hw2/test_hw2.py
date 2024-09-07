@@ -9,7 +9,7 @@ def test_pass():
 
 
 def test_pass_larger():
-    '''Passing Large (8) Test'''
+    '''Passing Large (8) Test with equal values'''
     assert merge_sort([12, 24, 24, 34, 32, 65, 54, 70]) == [
         12, 24, 24, 32, 34, 54, 65, 70]
 
