@@ -1,4 +1,4 @@
-'''Module for importing external file rand.py'''
+'''Module for importing external file rand.py '''
 import rand
 
 
