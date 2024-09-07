@@ -1,4 +1,6 @@
-# HW Repo
+# HW Repo 
+
+Nick Case, Hannah Estes, Satwika Kancharla
 
 ### HW1
 ![language](https://img.shields.io/badge/Language-Python-blue)
