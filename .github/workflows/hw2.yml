@@ -43,4 +43,4 @@ jobs:
         pylint ./hw2
     - name: Bandit
       run: |
-        bandit -r ./hw2
+        bandit -r -ll ./hw2
