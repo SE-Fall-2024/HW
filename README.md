@@ -1,4 +1,4 @@
-# HW Repo 
+# HW Repo - Team 13
 
 Nick Case, Hannah Estes, Satwika Kancharla
 
