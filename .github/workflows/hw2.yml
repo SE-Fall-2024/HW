@@ -40,7 +40,7 @@ jobs:
         autopep8 --in-place --aggressive --recursive ./hw2
     - name: pylint
       run: |
-        pylint ./hw2 > pylint-actions.txt
+        pylint ./hw2
     - name: Bandit
       run: |
-        bandit -r -ll ./hw2 > bandit-actions.txt
+        bandit -r -ll ./hw2
