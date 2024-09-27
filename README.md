@@ -12,6 +12,6 @@ Nick Case, Hannah Estes, Satwika Kancharla
 ### HW 2
 ![AutoPep8](https://github.com/SE-Fall-2024/HW/actions/workflows/autopep8.yml/badge.svg)
 ![Pylint](https://github.com/SE-Fall-2024/HW/actions/workflows/pylint.yml/badge.svg)
-![Bandit](https://img.shields.io/badge/security-bandit-yellow.svg)
+![Bandit](https://github.com/SE-Fall-2024/HW/actions/workflows/Bandit.yml/badge.svg)
 ![HW2](https://github.com/SE-Fall-2024/HW/actions/workflows/hw2.yml/badge.svg)
 
