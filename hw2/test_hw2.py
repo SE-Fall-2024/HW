@@ -15,5 +15,5 @@ def test_pass_larger():
 
 
 def test_pass_negative_numbers():
-    '''Passing Small (4) Test with negative values'''
-    assert merge_sort([-15, 13, 12, -21]) == [-21, -15, 12, 13]
+    '''Passing Small (5) Test with negative values'''
+    assert merge_sort([-15, 13, 12, -21, 15]) == [-21, -15, 12, 13, 15]
