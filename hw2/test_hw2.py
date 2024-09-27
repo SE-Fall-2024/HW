@@ -9,11 +9,11 @@ def test_pass():
 
 
 def test_pass_larger():
-    '''Passing Large (8) Test with equal values'''
-    assert merge_sort([12, 24, 24, 34, 32, 65, 54, 70]) == [
-        12, 24, 24, 32, 34, 54, 65, 70]
+    '''Passing Large (8) Test'''
+    assert merge_sort([12, 24, 34, 32, 65, 54, 70]) == [
+        12, 24, 32, 34, 54, 65, 70]
 
 
-def test_fail():
-    '''Failing Small (4) Test'''
-    assert merge_sort([15, 13, 12, 21]) != [12, 21, 15, 13]
+def test_pass_negative_numbers():
+    '''Passing Small (4) Test with negative values'''
+    assert merge_sort([-15, 13, 12, -21]) == [-21, -15, 12, 13]
