@@ -12,6 +12,6 @@ Nick Case, Hannah Estes, Satwika Kancharla
 ### HW 2
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://github.com/SE-Fall-2024/HW/actions/workflows/autopep8.yml/badge.svg)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/SE-Fall-2024/HW/actions/workflows/pylint.yml/badge.svg)
-[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/SE-Fall-2024/HW/actions/workflows/hw1.yml/badge.svg)
+[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/SE-Fall-2024/HW/actions/workflows/Bandit.yml/badge.svg)
 ![HW2](https://github.com/SE-Fall-2024/HW/actions/workflows/hw2.yml/badge.svg)
 
