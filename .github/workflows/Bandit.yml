@@ -1,4 +1,4 @@
-name: HW2
+name: Bandit
 
 on:
   push:
@@ -21,26 +21,7 @@ jobs:
         cd hw2
         python -m pip install --upgrade pip
         pip install pytest pytest-cov
-        pip install --upgrade autopep8
-        pip install pylint
         pip install bandit
-    - name: Test with pytest
-      run: |
-        pytest ./hw2
-    - name: Run tests
-      run: |
-        cd hw2
-        pytest --cov
-    - name: Upload results to Codecov
-      uses: codecov/codecov-action@v4
-      with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-    - name: AutoPep8
-      run: |
-        autopep8 --in-place --aggressive --recursive ./hw2
-    - name: pylint
-      run: |
-        pylint ./hw2
     - name: Bandit
       run: |
         bandit -r -ll ./hw2

@@ -1,4 +1,4 @@
-'''Module for importing external file rand.py'''
+'''Module for importing external file rand.py '''
 import rand
 
 
@@ -12,7 +12,7 @@ def merge_sort(arr):
 
 
 def recombine(left_arr, right_arr):
-    '''Child Function to Combine Seperated Arrays'''
+    '''Child Function to Combine Seperated Lists'''
     left_index = 0
     right_index = 0
     merge_arr = [None] * (len(left_arr) + len(right_arr))
