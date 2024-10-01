@@ -1,0 +1,10 @@
+Event on 2023-08-19
+No date here
+The next event is on 2024-01-01
+This line contains a space
+Another line with tabs	and spaces
+Singlewordline
+fail1: Network timeout
+fail2: Disk error
+success: Task completed
+

@@ -1,0 +1,5 @@
+Item A: 5
+Item B: X
+Item C: 9
+No digit at the end here
+

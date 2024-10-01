@@ -1,0 +1,7 @@
+apple is a fruit
+i love to eat apple [ delete_me ]
+an apple a day keeps the doctor away
+this is a temporary line [ delete_me ]
+foo foo phi phi baz baz
+my name is foo
+select between foo and baz

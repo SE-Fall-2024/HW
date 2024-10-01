@@ -1,0 +1,11 @@
+Error: Could not connect to the server
+Warning: Low memory
+Error: Invalid user input
+Info: Task completed successfully
+error error error: Too many errors in the process
+error: Process started error: Something went wrong error
+Task failed
+Operation completed successfully
+Could not process the request
+Success message received
+
