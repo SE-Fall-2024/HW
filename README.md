@@ -16,7 +16,7 @@ Nick Case, Hannah Estes, Satwika Kancharla
 ![HW2](https://github.com/SE-Fall-2024/HW/actions/workflows/hw2.yml/badge.svg)
 
 ### HW 4
-![language](https://img.shields.io/badge/Language-Python-blue)
+![language](https://img.shields.io/badge/Language-Shell-blue)
 ![license](https://img.shields.io/badge/License-MIT-green)
 ![platform](https://img.shields.io/badge/Platform-Linux-purple)
 ![HW4](https://github.com/SE-Fall-2024/HW/actions/workflows/hw4.yml/badge.svg)
