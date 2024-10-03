@@ -1,5 +1,8 @@
-# Final Command
-grep -c "sample" file* | grep -E ":1$" | cut -d: -f1 | xargs grep -c "CSC510" | grep -v -E ":0$|:1$|:2$" | sed 's/:/ /' | xargs -I{} sh -c 'set -- {}; wc -l $1 | gawk "{print \"$1:\" $2 \":\" \$1}"' | sort -t: -k2,2nr -k3,3nr | cut -d: -f1 | | sed 's/file_/filtered_/'
+# Final Command (inside dataset1 directory)
+grep -c "sample" file* | grep -E ":1$" | cut -d: -f1 | xargs grep -c "CSC510" | grep -v -E ":0$|:1$|:2$" | sed 's/:/ /' | xargs -I{} sh -c 'set -- {}; wc -l $1 | gawk "{print \"$1:\" $2 \":\" \$1}"' | sort -t: -k2,2nr -k3,3nr | cut -d: -f1 | sed 's/file_/filtered_/'
+
+# Final Command (in hw4 directory)
+grep -c "sample" provided/dataset1/file* | grep -E ":1$" | cut -d: -f1 | xargs grep -c "CSC510" | grep -v -E ":0$|:1$|:2$" | sed 's/:/ /' | xargs -I{} sh -c 'set -- {}; wc -l $1 | gawk "{print \"$1:\" $2 \":\" \$1}"' | sort -t: -k2,2nr -k3,3nr | cut -d: -f1 | sed 's/file_/filtered_/' | cut -d/ -f3
 
 
 ##########
